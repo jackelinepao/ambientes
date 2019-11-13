@@ -7,9 +7,9 @@ const TipoAula_1 = require("../modelos/TipoAula");
 const Usuario_1 = require("../modelos/Usuario");
 const Reserva_1 = require("../modelos/Reserva");
 const Sequelize = require("sequelize");
-exports.sequelize = new Sequelize('LDv0pN4uWQ', //database name
-'LDv0pN4uWQ', //username
-'JGnf7mu1Ya', //password
+exports.sequelize = new Sequelize('KZrukC88Bo', //database name
+'KZrukC88Bo', //username
+'MrkXoGyv0a', //password
 // 'aulas',
 // 'root',
 // 'root',
