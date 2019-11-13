@@ -7,13 +7,15 @@ const TipoAula_1 = require("../modelos/TipoAula");
 const Usuario_1 = require("../modelos/Usuario");
 const Reserva_1 = require("../modelos/Reserva");
 const Sequelize = require("sequelize");
-exports.sequelize = new Sequelize(
-// 'LDv0pN4uWQ',//database name
-// 'LDv0pN4uWQ',//username
-// 'JGnf7mu1Ya', //password
-'aulas', 'root', 'root', {
-    //host: 'remotemysql.com',//server name: remotemysql.com:3306
-    host: 'localhost',
+exports.sequelize = new Sequelize('LDv0pN4uWQ', //database name
+'LDv0pN4uWQ', //username
+'JGnf7mu1Ya', //password
+// 'aulas',
+// 'root',
+// 'root',
+{
+    host: 'remotemysql.com',
+    //host: 'localhost',
     dialect: 'mysql',
     timezone: '-05:00',
     dialectOption: {
